@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Nathaly Wave ✦ Panda Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="sparkle" style="top:10%; left:8%;">✦</div>
+  <div class="sparkle" style="top:20%; right:10%;">♡</div>
+  <div class="sparkle" style="top:70%; left:15%;">✧</div>
+
+  <div class="container">
+
+    <div class="hero">
+
+      <div class="avatar">
+        🐼
+      </div>
+
+      <h1>Nathaly Wave</h1>
+
+      <p class="subtitle">
+        Dubladora • Cosplayer • Criadora ✨
+      </p>
+
+      <div class="buttons">
+        <button class="btn" onclick="showSection('dubs')">
+          🎙️ Dublagens
+        </button>
+
+        <button class="btn" onclick="showSection('cosplay')">
+          🎭 Cosplays
+        </button>
+
+        <button class="btn" onclick="showSection('socials')">
+          🌐 Redes
+        </button>
+      </div>
+
+    </div>
+
+    <!-- DUBLAGENS -->
+
+    <section id="dubs" class="active">
+
+      <div class="section-box">
+
+        <h2 class="section-title">
+          🎙️ Dublagens
+        </h2>
+
+        <div class="card-grid">
+
+          <div class="card">
+            <div class="card-image">🎤</div>
+
+            <div class="card-content">
+              <h3>Fandub Anime</h3>
+              <p>Seus vídeos e projetos de voz.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">🎧</div>
+
+            <div class="card-content">
+              <h3>Covers</h3>
+              <p>Músicas e interpretação.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- COSPLAY -->
+
+    <section id="cosplay">
+
+      <div class="section-box">
+
+        <h2 class="section-title">
+          🎭 Cosplays
+        </h2>
+
+        <div class="card-grid">
+
+          <div class="card">
+            <div class="card-image">✨</div>
+
+            <div class="card-content">
+              <h3>Eventos</h3>
+              <p>Fotos em eventos e concursos.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">🪡</div>
+
+            <div class="card-content">
+              <h3>WIPs</h3>
+              <p>Processo de criação dos cosplays.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- REDES -->
+
+    <section id="socials">
+
+      <div class="section-box">
+
+        <h2 class="section-title">
+          🌐 Redes
+        </h2>
+
+        <div class="socials">
+
+          <a class="social" href="#">
+            🎵 TikTok
+          </a>
+
+          <a class="social" href="#">
+            📺 YouTube
+          </a>
+
+          <a class="social" href="#">
+            📷 Instagram
+          </a>
+
+          <a class="social" href="#">
+            💜 Discord
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <button class="music-btn" onclick="toggleMusic()">
+    ♫
+  </button>
+
+  <audio id="bgm" loop>
+    <source src="audio/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

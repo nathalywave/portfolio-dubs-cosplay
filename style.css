@@ -55,8 +55,8 @@ body{
 
 .avatar{
 
-  width:220px;
-  height:220px;
+  width:280px;
+  height:280px;
 
   margin:auto;
 
@@ -83,8 +83,8 @@ body{
 
 .avatar img{
 
-  width:200%;
-  height:200%;
+  width:280%;
+  height:280%;
 
   object-fit:contain;
 
